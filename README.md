@@ -2,9 +2,13 @@
   Simple spring boot application with API's for registration form UI (https://github.com/shreedhar-ansur/registrationAppFrontend.git).
 
 ## prerequisite
+
   JDK 1.8 or higher
+  
   Maven 3 or higher
+  
   MongoDB 3.0 or higher
+  
   Set JAVA_HOME system environment variable to java home folder
  
 ## Steps to run project
