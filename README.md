@@ -1,5 +1,5 @@
 # Registration API
-  Simple application with API's for registration form UI (https://github.com/shreedhar-ansur/registrationAppFrontend.git).
+  Simple spring boot application with API's for registration form UI (https://github.com/shreedhar-ansur/registrationAppFrontend.git).
 
 ## prerequisite
   JDK 1.8 or higher
