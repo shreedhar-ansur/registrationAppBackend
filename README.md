@@ -17,4 +17,4 @@
   
   Step 2: Run `"<path_to_mongo_installation_folder>\bin\mongod.exe" --dbpath "<path_to_empty_database_folder>\data"` to start mongo instance.
   
-  Step 3: Run `mvn clean compile install spring-boot:run` to compile install and run the spring boot application.
+  Step 3: Run `mvn clean compile install spring-boot:run` to compile install and run the spring boot application. Navigate to `http://localhost:8080/`.
