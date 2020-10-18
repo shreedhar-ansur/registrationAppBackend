@@ -12,10 +12,12 @@ import org.springframework.stereotype.Component;
 import com.scrumConnect.demo.validation.GenderValidation;
 
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Document(collection = "User")
 @AllArgsConstructor
 @Component
+@NoArgsConstructor
 public class User {
 
 	@Id
