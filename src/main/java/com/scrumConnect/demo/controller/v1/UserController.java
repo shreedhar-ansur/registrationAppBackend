@@ -27,8 +27,7 @@ public class UserController {
 
 	@RequestMapping(path="/{userId}", method = RequestMethod.GET)
 	public HttpEntity<User> getUser(@PathVariable(value = "userId") String userId) {
-		User person = userRepository.getUserById(userId);
-		return new ResponseEntity<>(person, HttpStatus.OK);
+		return new ResponseEntity<>(userRepository.getUserById(userId), HttpStatus.OK);
 	}
 	
 	@RequestMapping(path="/", method = RequestMethod.GET)
