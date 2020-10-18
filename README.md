@@ -8,6 +8,9 @@
   Set JAVA_HOME system environment variable to java home folder
  
 ## Steps to run project
+  
   Step 1: checkout the project from git repository.
-  Step 2: Run "<path_to_mongo_installation_folder>\bin\mongod.exe" --dbpath "<path_to_empty_database_folder>\data"
-  Step 3: Run mvn clean compile install spring-boot:run
+  
+  Step 2: Run "<path_to_mongo_installation_folder>\bin\mongod.exe" --dbpath "<path_to_empty_database_folder>\data".
+  
+  Step 3: Run mvn clean compile install spring-boot:run.
