@@ -7,8 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import io.swagger.annotations.SwaggerDefinition;
+
 @RestController
 @RequestMapping("/")
+@SwaggerDefinition
 public class Controller {
 	
 	@RequestMapping(method = RequestMethod.GET)
